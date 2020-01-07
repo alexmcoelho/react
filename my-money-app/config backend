@@ -1,4 +1,5 @@
-Configurando projeto my-money-app (backend)
+--Configurando projeto my-money-app (backend)
 npm init -y
 npm i --save -E body-parser@1.15.2 express@4.14.0 mongoose@4.7.0 lodash@4.17.4 mongoose-paginate@5.0.3 express-query-int@1.0.1 node-restful@0.2.5 pm2@2.1.5
 npm i --save-dev nodemon@1.11.0
+--Obs.: Foi alterado a versão do mongoose no arquivo package.json para ^4.13.19, isso foi feito porque estava dando erros no pipelines utilizados na query summary (tem comentários no curso)
